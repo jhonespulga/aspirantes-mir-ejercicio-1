@@ -1,11 +1,13 @@
-primer paso abrir poweershell
-ubicar el escritorio para crear la carpeta, esto se hace con el comando cd.
-crear la carpeta con el comando mkdir
-abrir vs com el comando code .
-crear el archivo raedme.md
-escribir los pasos requeridos.
-crear el repositorio con el comando git init
-escribir el comando git add para agregar el archivo al repositorio
-digitar el comando git commit -m con una descripcion del archivo para crear el commit
-crear el repositorio en github
-sincronizar el repositorio con github
+pwd
+cd escritorio
+mkdir ejercicios
+cd ejercicios
+code .
+n VSCode crear una carpeta ejercicio1.
+Crear un archivo llamado README.md (vacío) dentro de la carpeta ejercicio1.
+git config --global user.name Esteban Pulgarin
+git config --global user.email jhonespulgarin@gmail.com
+git init
+git add .
+git commit -m "Version inicial"
+
